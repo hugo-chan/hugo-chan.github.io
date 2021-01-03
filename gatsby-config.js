@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/hugo-chan.github.io",
   plugins: [
     {
       resolve: `gatsby-plugin-typography`,
