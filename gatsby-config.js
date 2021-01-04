@@ -17,7 +17,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        icon: `src/images/favicon.png`
+        icon: `static/favicon.png`
       }
     },
     `gatsby-plugin-react-helmet`,
