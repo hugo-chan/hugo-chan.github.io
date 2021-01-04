@@ -14,13 +14,13 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-transition-link`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
         icon: `src/images/favicon.png`
       }
-    }
+    },
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-transition-link`,
   ],
 }

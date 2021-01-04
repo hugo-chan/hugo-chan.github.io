@@ -1,6 +1,7 @@
 import Typography from "typography"
 import fairyGateTheme from "typography-theme-fairy-gates"
-// fairyGateTheme.headerFontFamily = ['Source Sans Pro']
+
+/* Change body font of theme */
 fairyGateTheme.baseFontSize = '20px'
 fairyGateTheme.bodyFontFamily = ['Quattrocento Sans']
 

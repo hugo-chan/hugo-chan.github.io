@@ -2,6 +2,11 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
+/**
+ * Gets info from gatsby-config.js
+ * Returns header of HTML containing metadata, title, etc.
+ * @param {*} param0 
+ */
 function SEO({ description, lang, meta }) {
   const { site } = useStaticQuery(
     graphql`
@@ -18,7 +23,6 @@ function SEO({ description, lang, meta }) {
       }
     `
   )
-
 
   return (
     <Helmet

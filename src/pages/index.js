@@ -5,6 +5,9 @@ import SEO from "../components/seo"
 
 import style from "../styles/index.module.css"
 
+/**
+ * Home page
+ */
 export default function Home() {
   return (
     <Layout topMargin="5rem">
