@@ -10,14 +10,15 @@ function SEO({ description, lang, meta }) {
           siteMetadata {
             title
             description
+            author
+            keywords
+            viewport
           }
         }
       }
     `
   )
 
-  const metaDescription = site.siteMetadata.description
-  const metaTitle = site.siteMetadata.title
 
   return (
     <Helmet
@@ -28,11 +29,23 @@ function SEO({ description, lang, meta }) {
       meta={[
         {
           name: `description`,
-          content: metaDescription,
+          content: site.siteMetadata.description,
         },
         {
           name: "title",
-          content: metaTitle,
+          content: site.siteMetadata.title,
+        },
+        {
+          name: "author",
+          content: site.siteMetadata.author,
+        },
+        {
+          name: "keywords",
+          content: site.siteMetadata.keywords.join(","),
+        },
+        {
+          name: "viewport",
+          content: site.siteMetadata.viewport,
         },
       ]}
     />
