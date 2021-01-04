@@ -10,7 +10,7 @@ const ListLink = props => (
 
 const AnimatedListLink = props => (
   <li style={{ display: `inline-block`, marginRight: props._marginRight }}>
-    <AniLink cover direction={props._dir} bg="#36BAA0" duration={1} to={props.to}>{props.children}</AniLink>
+    <AniLink cover direction={props._dir} bg="#36BAA0" duration={0.8} to={props.to}>{props.children}</AniLink>
   </li>
 )
 
