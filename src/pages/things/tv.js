@@ -12,7 +12,7 @@ export default function Tv() {
     <div>
         <TopArrow link="/things"></TopArrow>
         <div className={style.centerDiv}>
-            <h1>Things I like to think ab2out</h1>
+            <h1>Things I like to think ab2344out test</h1>
         </div>
         <BottomArrow link="/things/xd"></BottomArrow>
     </div>
