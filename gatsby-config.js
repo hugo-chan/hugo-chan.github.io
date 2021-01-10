@@ -6,7 +6,6 @@ module.exports = {
     keywords: ["Hugo Chan", "UChicago", "Hong Kong", "HK"],
     viewport: "width=device-width, initial-scale=1.0"
   },
-  pathPrefix: "/",
   plugins: [
     {
       resolve: `gatsby-plugin-typography`,
