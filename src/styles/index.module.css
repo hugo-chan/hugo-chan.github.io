@@ -1,3 +1,38 @@
+.centerDiv{
+    /* 40% from top, horizontally centered */
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.topDiv{
+    /* 12% from top, horizontally centered */
+    position: fixed;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bottomDiv{
+    /* 88% from top, horizontally centered */
+    position: fixed;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.rotate180 {
+    /* Rotates image 180 degrees */
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+
 /* Fade for 1.2 seconds */
 .fade1s {
     -webkit-animation: fadein 1.2s; /* Safari, Chrome and Opera > 12.1 */
@@ -18,23 +53,6 @@
     opacity: 0;
     animation-fill-mode: forwards;
 }
-
-.centerDiv{
- /* 40% from top, horizontally centered */
- position: fixed;
- top: 40%;
- left: 50%;
- transform: translate(-50%, -50%);
-}
-
-.bottomDiv{
- /* 90% from top, horizontally centered */
- position: fixed;
- top: 88%;
- left: 50%;
- transform: translate(-50%, -50%);
-}
-
 
 @keyframes fadein {
     from { opacity: 0; }
