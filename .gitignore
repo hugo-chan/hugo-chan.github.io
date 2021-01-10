@@ -70,3 +70,5 @@ yarn-error.log
 
 .prettierrc
 .prettierignore
+
+static/hidden
