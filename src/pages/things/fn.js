@@ -1,6 +1,7 @@
 import React from "react"
 import TopArrow from "../../components/toparrow"
 import Figure from "../../components/figure"
+import LinkBar from "../../components/links/linkbar"
 
 import style from "../../styles/index.module.css"
 /**
@@ -11,6 +12,7 @@ export default function Tv() {
     <div className={style.thingBody}>
       <div className={style.thingHead}>
         <TopArrow link="/things/hk"></TopArrow>
+        <LinkBar></LinkBar>
       </div>
       <div className={style.thingContent}>
         <Figure link="/hidden/fn.png" caption="This Fortnite Creative map I spent hours in"></Figure>
