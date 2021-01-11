@@ -15,6 +15,13 @@ export default function Things() {
             <h1 style={{ textAlign: `center` }}>Things I like to think about</h1>
         </div>
         <BottomArrow link="/things/tv"></BottomArrow>
+        {/* Prefetching images */}
+        <link rel="prefetch" href="/hidden/tv.jpg"/>
+        <link rel="prefetch" href="/hidden/campus.jpg"/>
+        <link rel="prefetch" href="/hidden/arsenal.jpg"/>
+        <link rel="prefetch" href="/hidden/madeon.jpg"/>
+        <link rel="prefetch" href="/hidden/hk.jpg"/>
+        <link rel="prefetch" href="/hidden/fn.jpg"/>
     </div>
   )
 }

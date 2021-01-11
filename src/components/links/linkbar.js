@@ -12,6 +12,9 @@ export default function LinkBar() {
   return (
     <div style={{ marginTop: `1.3rem`, marginRight: `2rem`}}>
         <ul style={{ listStyle: `none`, float: `right` }}>
+          <AnimatedListLink _dir="down" _marginRight="1.2rem" to="/">
+              Home
+          </AnimatedListLink>
           <AnimatedListLink _dir="up" _marginRight="1.2rem" to="/about">
               About
           </AnimatedListLink>

@@ -29,31 +29,13 @@ export function ListLink(props) {
 }
 
 /**
- * List item that is a link without the margin
+ * List item that is a link without the margin (not internal)
  * @param {*} props 
  */
 export function LastLink(props) {
   return (
     <li style={{ display: `inline-block` }}>
-      <Link to={props.to}>{props.children}</Link>
+      <a href={props.to}>{props.children}</a>
     </li>
   )
 }
-
-
-// /**
-//  * A horizontal floating list of links
-//  * @param {*} props 
-//  */
-// export default function InternalLinks() {
-//   return (
-//     <div>
-//         <AnimatedListLink _dir="up" _marginRight="2rem" to="/about">
-//           About
-//         </AnimatedListLink>
-//         <AnimatedListLink _dir="up" to="/things">
-//           Things
-//         </AnimatedListLink>
-//     </div>
-//   )
-// }
