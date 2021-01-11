@@ -9,8 +9,12 @@ import style from "../styles/index.module.css"
 export default function Figure(props) {
   return (
       <div className={style.temp}>
-        <img className={style.thingImg} src={props.link} alt='fortnite'/>
-        <p className={style.thingCaption}>{props.caption}</p>
+        <div className={style.fade2s}>
+          <img className={style.thingImg} src={props.link} alt='fortnite'/>
+        </div>
+        <div className={style.fade2s}>
+          <p className={style.thingCaption}>{props.caption}</p>
+        </div>
       </div>
 
   )

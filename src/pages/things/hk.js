@@ -16,7 +16,7 @@ export default function Hk() {
         <LinkBar></LinkBar>
       </div>
       <div className={style.thingContent}>
-        <Figure link="/hidden/hk.png" caption="This photo of Hong Kong I took in 2016"></Figure>
+        <Figure link="/hidden/hk.jpg" caption="This photo of Hong Kong I took in 2016"></Figure>
       </div>
       <div className={style.thingFoot}>
         <BottomArrow link="/things/fn"></BottomArrow>

@@ -15,7 +15,7 @@ export default function Tv() {
         <LinkBar></LinkBar>
       </div>
       <div className={style.thingContent}>
-        <Figure link="/hidden/fn.png" caption="This Fortnite Creative map I spent hours in"></Figure>
+        <Figure link="/hidden/fn.jpg" caption="This Fortnite Creative map I spent hours in"></Figure>
       </div>
       <div className={style.thingFoot}>
       </div>

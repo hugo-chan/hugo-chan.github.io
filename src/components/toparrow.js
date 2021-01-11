@@ -10,7 +10,7 @@ export default function TopArrow(props) {
   return (
     <div className={style.topDiv}>
         <a href={props.link} style={{backgroundImage:"none", margin:"auto"}}>
-            <img className={style.arrowUpsideDown} src="/hidden/arrow.png" alt="Previous page"></img>
+            <img className={style.arrowUpsideDown} src="/hidden/arrow.jpg" alt="Previous page"></img>
         </a>
     </div>
   )

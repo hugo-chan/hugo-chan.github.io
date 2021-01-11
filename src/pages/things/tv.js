@@ -18,7 +18,7 @@ export default function Tv() {
           <LinkBar></LinkBar>
         </div>
         <div className={style.thingContent}>
-          <Figure link="/hidden/tv.png" caption="This graph and TradingView theme"></Figure>
+          <Figure link="/hidden/tv.jpg" caption="This graph and TradingView theme"></Figure>
         </div>
         <div className={style.thingFoot}>
           <BottomArrow link="/things/campus"></BottomArrow>
