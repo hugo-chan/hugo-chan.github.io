@@ -17,9 +17,8 @@ export default function Campus() {
         <Figure link="/hidden/campus.jpg" caption="This photo of campus I took in Freshman year"></Figure>
       </div>
       <div className={style.thingFoot}>
-      <BottomArrow link="/things/arsenal"></BottomArrow>
+        <BottomArrow link="/things/arsenal"></BottomArrow>
       </div>
     </div>
-
   )
 }

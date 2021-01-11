@@ -7,10 +7,15 @@ import Figure from "../../components/figure"
  */
 export default function Tv() {
   return (
-    <div>
-      <TopArrow link="/things/hk"></TopArrow>
-      <Figure link="/hidden/fn.png" caption="This Fortnite Creative map I spent hours in"></Figure>
+    <div className={style.thingBody}>
+      <div className={style.thingHead}>
+        <TopArrow link="/things/hk"></TopArrow>
+      </div>
+      <div className={style.thingContent}>
+        <Figure link="/hidden/fn.png" caption="This Fortnite Creative map I spent hours in"></Figure>
+      </div>
+      <div className={style.thingFoot}>
+      </div>
     </div>
-
   )
 }

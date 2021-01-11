@@ -21,6 +21,5 @@ export default function Tv() {
         <BottomArrow link="/things/campus"></BottomArrow>
       </div>
     </div>
-
   )
 }

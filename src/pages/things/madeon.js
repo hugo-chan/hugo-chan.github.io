@@ -8,11 +8,16 @@ import Figure from "../../components/figure"
  */
 export default function Madeon() {
   return (
-    <div>
-      <TopArrow link="/things/arsenal"></TopArrow>
-      <Figure link="/hidden/madeon.jpg" caption="This Madeon set (22/11/19 Concord Music Hall)"></Figure>
-      <BottomArrow link="/things/hk"></BottomArrow>
+    <div className={style.thingBody}>
+      <div className={style.thingHead}>
+        <TopArrow link="/things/arsenal"></TopArrow>
+      </div>
+      <div className={style.thingContent}>
+        <Figure link="/hidden/madeon.jpg" caption="This Madeon set (22/11/19 Concord Music Hall)"></Figure>
+      </div>
+      <div className={style.thingFoot}>
+        <BottomArrow link="/things/hk"></BottomArrow>
+      </div>
     </div>
-
   )
 }

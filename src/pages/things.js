@@ -10,7 +10,7 @@ export default function Things() {
   return (
     <div>
         <div className={style.almostCenterDiv}>
-            <h1>Things I like to think about</h1>
+            <h1 style={{ textAlign: `center` }}>Things I like to think about</h1>
         </div>
         <BottomArrow link="/things/tv"></BottomArrow>
     </div>

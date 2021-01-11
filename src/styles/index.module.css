@@ -118,16 +118,13 @@ Things pages
 
 .thingContent {
     flex: 1;     /* this is the key; consumes all available height */
-    /* background: blue; */
     display: flex;
     justify-content: center; /* align horizontal */
     align-items: center; /* align vertical */
 }
 .thingHead {
     height: 64px;
-    /* background: red; */
 }
 .thingFoot {
     height: 64px;
-    /* background: green; */
 }

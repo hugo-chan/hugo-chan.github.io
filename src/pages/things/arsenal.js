@@ -10,16 +10,15 @@ import style from "../../styles/index.module.css"
 export default function Arsenal() {
   return (
     <div className={style.thingBody}>
-        <div className={style.thingHead}>
+      <div className={style.thingHead}>
         <TopArrow link="/things/campus"></TopArrow>
-        </div>
-        <div className={style.thingContent}>
-        <Figure link="/hidden/arsenal.jpg" caption="This Arsenal vs Crystal Palace game I saw live where Giroud scored the famous scorpion kick goal"></Figure>
-        </div>
-        <div className={style.thingFoot}>
-        <BottomArrow link="/things/madeon"></BottomArrow>
-        </div>
       </div>
-
+      <div className={style.thingContent}>
+        <Figure link="/hidden/arsenal.jpg" caption="This Arsenal vs Crystal Palace game I saw live where Giroud scored the famous scorpion kick goal"></Figure>
+      </div>
+      <div className={style.thingFoot}>
+        <BottomArrow link="/things/madeon"></BottomArrow>
+      </div>
+    </div>
   )
 }
