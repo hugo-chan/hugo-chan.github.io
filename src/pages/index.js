@@ -23,9 +23,15 @@ export default function Home() {
       </ul>
       <br></br>
       <ul className={style.fade2sd} style={{ textAlign: `center`, margin: `auto`, listStyle: `none`, display: `flex`, justifyContent: "center"}}>
-        <ListLink _marginRight="2rem" to="https://www.linkedin.com/in/hugo-chan/">LinkedIn</ListLink>
-        <ListLink _marginRight="2rem" to="https://github.com/hugo-chan/">GitHub</ListLink>
-        <LastLink to="mailto:hugochan@uchicago.edu">Contact</LastLink>
+        <ListLink _marginRight="2rem" to="https://www.linkedin.com/in/hugo-chan/">
+          <img className={style.linkImg} src="icons/linkedin.jpg"></img>
+        </ListLink>
+        <ListLink _marginRight="2rem" to="https://github.com/hugo-chan/">
+          <img className={style.linkImg} src="icons/github.jpg"></img>
+        </ListLink>
+        <LastLink to="mailto:hugochan@uchicago.edu">
+          <img className={style.linkImg} src="icons/mail.jpg"></img>
+        </LastLink>
       </ul>
     </div>
   )

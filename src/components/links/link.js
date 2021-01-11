@@ -2,6 +2,7 @@ import React from "react"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import { Link } from "gatsby"
 
+import style from "../../styles/index.module.css"
 
 /**
  * List item that is a link that produces a transition

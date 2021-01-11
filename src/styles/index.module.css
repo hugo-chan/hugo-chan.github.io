@@ -1,4 +1,13 @@
 /*
+Global styles
+*/
+a {
+    text-decoration: none;
+    box-shadow: none;
+    background-image: none;
+} 
+
+/*
 Index and Things homepage
 */
 
@@ -64,10 +73,20 @@ Index and Things homepage
 }
 
 /*
+Links
+*/
+
+.linkImg {
+    width: 33px;
+    height: 33px;
+    vertical-align: middle;
+}
+
+/*
 Next and previous page arrows
 */
 
-.topDiv{
+.topDiv {
     /* 12% from top, horizontally centered */
     position: fixed;
     top: 5%;
