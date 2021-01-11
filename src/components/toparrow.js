@@ -12,7 +12,6 @@ export default function TopArrow(props) {
         <a href={props.link} style={{backgroundImage:"none", margin:"auto"}}>
             <img className={style.arrowUpsideDown} src="/hidden/arrow.png" alt="Previous page"></img>
         </a>
-        {/* test2 */}
     </div>
   )
 }
