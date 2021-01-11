@@ -8,9 +8,9 @@ import style from "../styles/index.module.css"
  */
 export default function Figure(props) {
   return (
-      <div className={style.centered}>
-        <img className={style.thingImg} src={props.link} alt='fortnite' />
-        <p style={{textAlign: "center"}}>{props.caption}</p>
+      <div className={style.temp}>
+        <img className={style.thingImg} src={props.link} alt='fortnite'/>
+        <p className={style.thingCaption}>{props.caption}</p>
       </div>
 
   )

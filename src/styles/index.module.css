@@ -98,32 +98,36 @@ Next and previous page arrows
 Things pages
 */
 
-.thingsCenterDiv{
-    /* 50% from top, horizontally centered */
-    position: fixed;
-    top: 49%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.thingImg{
-    height:auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 3px;
-}
-
-.centered {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 .thingCaption {
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 0px;
+    display: "block";
+    margin: -30px 0 0px 0;
+}
 
+.thingImg {
+    max-width:100%;
+    max-height: calc(72vh);
+    padding-bottom:-100px;
+}
+
+.thingBody {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.thingContent {
+    flex: 1;     /* this is the key; consumes all available height */
+    /* background: blue; */
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
+.thingHead {
+    height: 64px;
+    /* background: red; */
+}
+.thingFoot {
+    height: 64px;
+    /* background: green; */
 }
