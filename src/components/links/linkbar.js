@@ -2,6 +2,7 @@ import React from "react"
 
 import { AnimatedListLink, ListLink, LastLink } from "./link"
 import style from "../../styles/index.module.css"
+import SEO from "../seo"
 
 
 /**
@@ -11,6 +12,7 @@ import style from "../../styles/index.module.css"
 export default function LinkBar() {
   return (
     <div style={{ marginTop: `1.3rem`, marginRight: `2rem`}}>
+        <SEO></SEO>
         <ul style={{ listStyle: `none`, float: `right` }}>
             <AnimatedListLink _dir="down" _marginRight="1.2rem" to="/">
                 Home

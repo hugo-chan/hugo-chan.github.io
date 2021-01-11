@@ -11,6 +11,7 @@ import style from "../styles/index.module.css"
 export default function About() {
   return (
     <div>
+      
       <LinkBar></LinkBar>
 
       {/* 40% center About page (can be modified) */}
