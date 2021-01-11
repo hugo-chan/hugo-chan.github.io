@@ -1,5 +1,5 @@
 /*
-Index page
+Index and Things homepage
 */
 
 .almostCenterDiv{
@@ -55,18 +55,6 @@ Index page
 }
 
 /*
-Useful
-*/
-
-.centerDiv{
-    /* 50% from top, horizontally centered */
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-/*
 Next and previous page arrows
 */
 
@@ -110,8 +98,16 @@ Next and previous page arrows
 Things pages
 */
 
+.thingsCenterDiv{
+    /* 50% from top, horizontally centered */
+    position: fixed;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .thingImg{
-    width: 200px;
+    width: 100%;
     height:auto;
     display: block;
     margin-left: auto;

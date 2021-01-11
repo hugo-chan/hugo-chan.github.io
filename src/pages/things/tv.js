@@ -3,17 +3,15 @@ import TopArrow from "../../components/toparrow"
 import BottomArrow from "../../components/bottomarrow"
 import Figure from "../../components/figure"
 
-import style from "../../styles/index.module.css"
-
 /**
- * TradingView Page
+ * TradingView Page 1
  */
 export default function Tv() {
   return (
     <div>
-      <TopArrow link="a"></TopArrow>
-      <Figure></Figure>
-      <BottomArrow link="a"></BottomArrow>
+      <TopArrow link="/things"></TopArrow>
+      <Figure link="/hidden/tv.png" caption="This graph and TradingView theme"></Figure>
+      <BottomArrow link="/things/campus"></BottomArrow>
     </div>
 
   )
