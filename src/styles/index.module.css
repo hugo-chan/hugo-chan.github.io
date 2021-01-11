@@ -1,37 +1,14 @@
-.centerDiv{
+/*
+Index page
+*/
+
+.almostCenterDiv{
     /* 40% from top, horizontally centered */
     position: fixed;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-.topDiv{
-    /* 12% from top, horizontally centered */
-    position: fixed;
-    top: 12%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.bottomDiv{
-    /* 88% from top, horizontally centered */
-    position: fixed;
-    top: 88%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-
-.rotate180 {
-    /* Rotates image 180 degrees */
-    -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    transform: rotate(180deg);
-}
-
 
 /* Fade for 1.2 seconds */
 .fade1s {
@@ -75,4 +52,75 @@
 @-ms-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+/*
+Useful
+*/
+
+.centerDiv{
+    /* 50% from top, horizontally centered */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*
+Next and previous page arrows
+*/
+
+.topDiv{
+    /* 12% from top, horizontally centered */
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    height: 40px;
+    transform: translate(-50%, -50%);
+}
+
+.bottomDiv{
+    /* 88% from top, horizontally centered */
+    position: fixed;
+    top: 95%;
+    left: 50%;
+    height: 40px;
+    transform: translate(-50%, -50%);
+}
+
+.arrow {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+.arrowUpsideDown {
+    /* Rotates image 180 degrees */
+    display:block;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    width: 40px;
+    height: 40px;
+}
+
+/*
+Things pages
+*/
+
+.thingImg{
+    width: 200px;
+    height:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+.thingCaption {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+
 }

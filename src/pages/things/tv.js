@@ -1,6 +1,7 @@
 import React from "react"
 import TopArrow from "../../components/toparrow"
 import BottomArrow from "../../components/bottomarrow"
+import Figure from "../../components/figure"
 
 import style from "../../styles/index.module.css"
 
@@ -10,11 +11,10 @@ import style from "../../styles/index.module.css"
 export default function Tv() {
   return (
     <div>
-        <TopArrow link="/things"></TopArrow>
-        <div className={style.centerDiv}>
-            <h1>Things I like to think ab2344out test</h1>
-        </div>
-        <BottomArrow link="/things/xd"></BottomArrow>
+      <TopArrow link="a"></TopArrow>
+      <Figure></Figure>
+      <BottomArrow link="a"></BottomArrow>
     </div>
+
   )
 }

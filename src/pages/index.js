@@ -9,7 +9,7 @@ import style from "../styles/index.module.css"
  */
 export default function Home() {
   return (
-    <div className= {style.centerDiv} topMargin="5rem">
+    <div className= {style.almostCenterDiv} topMargin="5rem">
       <SEO/>
       <h1 className={style.fade1s} style={{ textAlign: `center` }}>Hi, my name is Hugo Chan.</h1>
       <p className={style.fade2sd}  style={{ textAlign: `center` }}>Welcome to my corner of the internet.</p>

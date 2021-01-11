@@ -9,9 +9,10 @@ import style from "../styles/index.module.css"
 export default function TopArrow(props) {
   return (
     <div className={style.topDiv}>
-        <a href={props.link} style={{backgroundImage:"none"}}>
-            <img className={style.rotate180} src="/hidden/arrow.png" width="40" height="40" alt="Next page"></img>
+        <a href={props.link} style={{backgroundImage:"none", margin:"auto"}}>
+            <img className={style.arrowUpsideDown} src="/hidden/arrow.png" alt="Previous page"></img>
         </a>
+        {/* test2 */}
     </div>
   )
 }
