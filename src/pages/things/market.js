@@ -9,7 +9,7 @@ import style from "../../styles/index.module.css"
 /**
  * TradingView Page 1
  */
-export default function Tv() {
+export default function Market() {
   return (
     <div>
       <div className={style.thingBody}>

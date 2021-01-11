@@ -12,7 +12,7 @@ export default function Campus() {
   return (
     <div className={style.thingBody}>
       <div className={style.thingHead}>
-        <TopArrow link="/things/tv"></TopArrow>
+        <TopArrow link="/things/market"></TopArrow>
         <LinkBar></LinkBar>
       </div>
       <div className={style.thingContent}>

@@ -12,7 +12,7 @@ export default function Hk() {
   return (      
     <div className={style.thingBody}>
       <div className={style.thingHead}>
-        <TopArrow link="/things/madeon"></TopArrow>
+        <TopArrow link="/things/music"></TopArrow>
         <LinkBar></LinkBar>
       </div>
       <div className={style.thingContent}>
