@@ -3,6 +3,7 @@ import TopArrow from "../../components/toparrow"
 import BottomArrow from "../../components/bottomarrow"
 import Figure from "../../components/figure"
 
+import style from "../../styles/index.module.css"
 /**
  * HK Page 5
  */

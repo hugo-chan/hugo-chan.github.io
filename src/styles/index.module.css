@@ -101,13 +101,12 @@ Things pages
 .thingCaption {
     text-align: center;
     display: "block";
-    margin: -30px 0 0px 0;
+    margin: -30px 0 0px 0; /* reduce top margin */
 }
 
 .thingImg {
     max-width:100%;
-    max-height: calc(72vh);
-    padding-bottom:-100px;
+    max-height: calc(72vh); /* image will take up at max 72% view of viewport height */
 }
 
 .thingBody {

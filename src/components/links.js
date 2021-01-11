@@ -27,13 +27,14 @@ const AnimatedListLink = props => (
  * A horizontal floating list of links
  * @param {*} props 
  */
-export default function Links(props) {
+export default function InternalLinks(props) {
   return (
     <div>
         <AnimatedListLink _dir={props.pageName === "About" ? "up": "down"} _marginRight={props._marginRight} to={props.pageDir}>
           {props.pageName}
         </AnimatedListLink>
         <ListLink _marginRight={props._marginRight} to="https://www.linkedin.com/in/hugo-chan/">LinkedIn</ListLink>
+        <br></br>
         <ListLink _marginRight={props._marginRight} to="https://github.com/hugo-chan/">GitHub</ListLink>
         <a href="mailto:hugochan@uchicago.edu">Contact</a>
     </div>

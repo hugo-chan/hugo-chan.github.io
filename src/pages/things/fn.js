@@ -2,6 +2,7 @@ import React from "react"
 import TopArrow from "../../components/toparrow"
 import Figure from "../../components/figure"
 
+import style from "../../styles/index.module.css"
 /**
  * Fn Page 6
  */
