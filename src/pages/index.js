@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className= {style.almostCenterDiv} topMargin="5rem">
       <SEO/>
-      <h1 className={style.fade1s} style={{ fontSize: "42px", textAlign: `center` }}>Hi, my name is Hugo Chan.</h1>
+      <h1 className={style.fade1s} style={{ minWidth: 400, fontSize: "42px", textAlign: `center` }}>Hi, my name is Hugo Chan.</h1>
       {/* <p className={style.fade2sd}  style={{ textAlign: `center` }}>Welcome to my corner of the internet.</p> */}
       <div style={{ paddingTop:"16px" }}>
         <ul className={style.fade2sd} style={{ textAlign: `center`, margin: `auto`, listStyle: `none`, display: `flex`, justifyContent: "center"}}>

@@ -12,7 +12,7 @@ export default function Things() {
     <div>
         <LinkBar></LinkBar>
         <div className={style.almostCenterDiv}>
-            <h1 style={{ textAlign: `center` }}>Things I like to think about</h1>
+            <h1 style={{ minWidth: 400, textAlign: `center` }}>Things I like to think about</h1>
         </div>
         <BottomArrow link="/things/market"></BottomArrow>
         {/* Prefetching images */}
