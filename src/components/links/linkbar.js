@@ -22,13 +22,13 @@ export default function LinkBar() {
                 Things
             </AnimatedListLink>
             <ListLink _marginRight="1.2rem" to="https://www.linkedin.com/in/hugo-chan/">
-              <img className = {style.linkImg} src="/icons/linkedin.jpg" alt="LinkedIn"></img>
+              <img className = {style.linkImg} src="/icons/linkedin.png" alt="LinkedIn"></img>
             </ListLink>
             <ListLink _marginRight="1.2rem" to="https://github.com/hugo-chan/">
-              <img className = {style.linkImg} src="/icons/github.jpg" alt="GitHub"></img>
+              <img className = {style.linkImg} src="/icons/github.png" alt="GitHub"></img>
             </ListLink>
             <LastLink to="mailto:hugochan@uchicago.edu">
-              <img className = {style.linkImg} src="/icons/mail.jpg" alt="Contact"></img>
+              <img className = {style.linkImg} src="/icons/mail.png" alt="Contact"></img>
             </LastLink>
         </ul>
     </div>

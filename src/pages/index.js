@@ -26,13 +26,13 @@ export default function Home() {
       <div style={{ paddingTop:"10px" }}>
         <ul className={style.fade2sd} style={{ textAlign: `center`, margin: `auto`, listStyle: `none`, display: `flex`, justifyContent: "center"}}>
           <ListLink _marginRight="2rem" to="https://www.linkedin.com/in/hugo-chan/">
-            <img className={style.linkImgIndex} src="icons/linkedin.jpg" alt="LinkedIn"></img>
+            <img className={style.linkImgIndex} src="icons/linkedin.png" alt="LinkedIn"></img>
           </ListLink>
           <ListLink _marginRight="2rem" to="https://github.com/hugo-chan/">
-            <img className={style.linkImgIndex} src="icons/github.jpg" alt="GitHub"></img>
+            <img className={style.linkImgIndex} src="icons/github.png" alt="GitHub"></img>
           </ListLink>
           <LastLink to="mailto:hugochan@uchicago.edu">
-            <img className={style.linkImgIndex} src="icons/mail.jpg" alt="Contact"></img>
+            <img className={style.linkImgIndex} src="icons/mail.png" alt="Contact"></img>
           </LastLink>
         </ul>
       </div>

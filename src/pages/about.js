@@ -13,17 +13,14 @@ export default function About() {
     <div>
       <LinkBar></LinkBar>
 
-      {/* 40% center About page (can be modified) */}
-      <div className={style.almostCenterDiv}>
-        <Layout topMargin="3rem">
-            <h1 style={{ whiteSpace: `nowrap` }}>About me</h1>
-            <div>
-              <p>I am a student at the University of Chicago pursuing a B.Sc. in Computer Science and a B.A. in Economics (June 2022). </p>
-              <p>My interests include quantitative finance, cryptocurrencies, and software development.</p>
-              <p>The majority of my programming experience has been on the backend. Technologies I am familiar with using include Python, JavaScript, C, SQL, R, and LaTeX.</p>
-            </div>
-        </Layout>
+      <Layout topMargin="3rem">
+          <h1 style={{ whiteSpace: `nowrap` }}>About me</h1>
+          <div>
+            <p>I am a student at the University of Chicago pursuing a B.Sc. in Computer Science and a B.A. in Economics (June 2022). </p>
+            <p>My interests include quantitative finance, cryptocurrencies, and software development.</p>
+            <p>The majority of my programming experience has been on the backend. Technologies I am familiar with using include Python, JavaScript, C, SQL, R, and LaTeX.</p>
+          </div>
+      </Layout>
       </div>
-    </div>
   )
 }
