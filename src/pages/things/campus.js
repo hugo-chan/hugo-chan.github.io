@@ -16,7 +16,7 @@ export default function Campus() {
         <LinkBar></LinkBar>
       </div>
       <div className={style.thingContent}>
-        <Figure link="/hidden/campus.jpg" caption="This photo of campus I took in Freshman year"></Figure>
+        <Figure link="/hidden/campus.jpg" caption="This photo of campus I took in Freshman year" alt="UChicago campus"></Figure>
       </div>
       <div className={style.thingFoot}>
         <BottomArrow link="/things/arsenal"></BottomArrow>

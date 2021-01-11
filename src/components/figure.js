@@ -10,7 +10,7 @@ export default function Figure(props) {
   return (
       <div className={style.temp}>
         <div className={style.fade1s}>
-          <img className={style.thingImg} src={props.link} alt='fortnite'/>
+          <img className={style.thingImg} src={props.link} alt={props.alt}/>
         </div>
         <div className={style.fade1s}>
           <p className={style.thingCaption}>{props.caption}</p>

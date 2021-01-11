@@ -76,10 +76,17 @@ Index and Things homepage
 Links
 */
 
+/* for LinkBar */
 .linkImg {
     width: 33px;
     height: 33px;
     vertical-align: middle;
+}
+
+/* only for index page */
+.linkImgIndex {
+    width: 42px;
+    height: 42px;
 }
 
 /*
