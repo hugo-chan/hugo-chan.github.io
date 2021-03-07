@@ -18,7 +18,7 @@ export default function Market() {
           <LinkBar></LinkBar>
         </div>
         <div className={style.thingContent}>
-          <Figure link="/hidden/tv.jpg" caption="This graph and TradingView theme" alt="BTC TradingView"></Figure>
+          <Figure link="/hidden/tv.jpg" caption="This chart and TradingView theme" alt="BTC TradingView"></Figure>
         </div>
         <div className={style.thingFoot}>
           <BottomArrow link="/things/campus"></BottomArrow>
